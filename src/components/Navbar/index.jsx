@@ -1,7 +1,6 @@
 import "./style.css"
-import React from 'react';
-import CardWidget from './CardWidget';
-import shop from '../../assets/Iconos/shop.png';
+import CardWidget from './CardWidget'
+import shop from '../../assets/Iconos/shop.png'
 
 function Navbar() {
   return (

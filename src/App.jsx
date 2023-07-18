@@ -1,8 +1,8 @@
 
 // import './App.css'
-import Navbar from "./Components/Navbar"
-import Productlist from "./Components/Productlist"
-import Footer from "./Components/Footer"
+import Navbar from "./components/Navbar"
+import Productlist from "./components/Productlist"
+import Footer from "./components/Footer"
 
 
 function App() {
