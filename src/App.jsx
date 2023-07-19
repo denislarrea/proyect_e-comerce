@@ -6,12 +6,12 @@ import Footer from "./components/Footer"
 
 
 function App() {
-  
+  const greetingMessage = '¡Echa un vistazo a nuestros increíbles productos que tenemos para vos!';
   return ( 
   
   <main className="main">
     <Navbar />
-    <Productlist />
+    <Productlist greeting={greetingMessage} /> 
     <Footer /> 
    
   </main>

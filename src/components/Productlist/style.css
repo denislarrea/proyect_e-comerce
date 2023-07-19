@@ -29,3 +29,28 @@
   padding: 1rem; 
 }
 
+.gret-menssage {
+  /* Estilos del div */
+  background-color: #f2f2f2; /* Color de fondo del div */
+  padding: 5px; /* Espaciado interno del div */
+}
+
+.gret-menssage p {
+  /* Estilos del párrafo dentro del div */
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+
+  /* Animación para cambiar el color del texto */
+  animation: changeColor 5s infinite;
+}
+
+@keyframes changeColor {
+  /* Definimos los colores que queremos para la animación */
+  0% { color: blue; }
+  25% { color: red; }
+  50% { color: green; }
+  75% { color: orange; }
+  100% { color: purple; }
+}
+
